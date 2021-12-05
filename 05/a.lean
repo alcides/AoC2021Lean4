@@ -65,11 +65,7 @@ def countPairs (ls: List Line) (xm ym:Nat) : IO Nat := do
   let mut count := 0
   for x in List.range xm do
     for y in List.range ym do
-      count := count + countOverlapPoint ls x y
-    IO.print x
-    IO.print "."
-    IO.println $ count
-     
+      count := count + countOverlapPoint ls x y     
   return count
 
 
