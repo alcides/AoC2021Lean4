@@ -61,7 +61,7 @@ def countOverlapPoint (ls: List Line) (x y: Nat) : Nat :=
   let insides := ls.filter (λl => inLine l x y)
   if insides.length > 1 then 1 else 0
 
-def countPairs (ls: List Line) (xm ym:Nat) : IO Nat := do
+def countPairs (ls: List Line) (xm ym:Nat) : Nat := do
   let mut count := 0
   for x in [0:xm+1] do
     for y in [0:ym+1] do
