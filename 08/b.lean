@@ -17,14 +17,6 @@ def readDigit (w:String) :=
   if "bcdf".all w.contains then 4 else
   if "acf".all w.contains then 7 else
   if "cf".all w.contains then 1 else
-
-
-
-
-  
-  
-
-
   10
 
 
