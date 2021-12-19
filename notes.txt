@@ -1,0 +1,13 @@
+Things Lean4 stdlib needs:
+
+* Same methods in List and Array
+* Hashable Char
+* Sorting algorithms
+* Priority Queue / insertSort
+* init / tail
+* flatMap
+* sum
+* maximum
+* minimum
+* abs
+* sqrt
