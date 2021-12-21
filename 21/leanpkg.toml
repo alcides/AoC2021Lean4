@@ -1,6 +1,0 @@
-[package]
-name = "day19"
-version = "0.1"
-lean_version = "leanprover/lean4:nightly-2021-12-01"
-
-[dependencies]
